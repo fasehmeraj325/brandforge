@@ -5,7 +5,9 @@
       "Bash(xargs kill -9)",
       "Bash(kill -9 4074)",
       "Bash(node -e ' *)",
-      "Bash(npm install *)"
+      "Bash(npm install *)",
+      "Bash(curl -s https://api.github.com/repos/fasehmeraj325/brandforge)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('✅ Repo found:', d.get\\('full_name'\\), '| Private:', d.get\\('private'\\)\\)\")"
     ]
   }
 }
